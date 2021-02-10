@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="238.137" height="244.137" viewBox="0 0 238.137 244.137">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #6a7ea5;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="kwadratowe" transform="translate(-593.863 -329)">
+    <g id="Rectangle_10" data-name="Rectangle 10" class="cls-1" transform="translate(707 346.863) rotate(45)">
+      <rect class="cls-3" width="160" height="160"/>
+      <rect class="cls-4" x="5" y="5" width="150" height="150"/>
+    </g>
+    <g id="Rectangle_9" data-name="Rectangle 9" class="cls-2" transform="translate(672 329)">
+      <rect class="cls-3" width="160" height="160"/>
+      <rect class="cls-4" x="5" y="5" width="150" height="150"/>
+    </g>
+  </g>
+</svg>

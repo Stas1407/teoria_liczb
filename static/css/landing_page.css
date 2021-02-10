@@ -1,0 +1,192 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.transition-top, .transition-bottom{
+    position: fixed;
+    width: 100%;
+    height: 50%;
+    display: none;
+    opacity: 0;
+    transition: top 1s;
+    background-color: #161619;
+}
+
+.transition-top{
+    display: block;
+    opacity: 1;
+    top: -50%;
+    z-index: 20;
+    border-bottom: solid 10px #CB8B00;
+}
+
+.transition-bottom{
+    display: block;
+    opacity: 1;
+    top: 100%;
+    z-index: 20;
+    border-top: solid 10px #CB8B00;
+}
+
+.top-active{
+    top: 0;
+}
+
+.bottom-active{
+    top: 50%;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main_text_div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.title{
+    margin-top: -20vh;
+    width: 40%;
+    height: 15%;
+}
+
+.menu_icon_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-right: 20px;
+    padding-top: 20px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 200%;
+    color: white;
+    pointer-events: none;
+    pointer-events: all;
+}
+
+.fa-bars{
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.arrow_down_div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding-bottom: 10px;
+    justify-content: center;
+    align-items: flex-end;
+    font-size: 350%;
+    color: white;
+    pointer-events: none;
+}
+
+.fa-angle-double-down{
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #242629;
+    color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.menu::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .menu {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.row{
+    height: 100%;
+}
+
+.col-lg-3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 30vh;
+}
+
+.menu_img{
+    position: relative;
+    top: -3vh;
+}
+
+.menu_img{
+    margin-bottom: 2vh;
+}
+
+.exit_icon{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 200%;
+    z-index: 10;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+@media only screen and (hover: none) and (pointer: coarse){
+    .square, .palindromiczne{
+        background-color: #263F6E;
+    }
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      height: 300%;
+      top: -100%;
+    }
+}
+  
+@media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+        width: 300%;
+        left: -100%;
+    }
+}

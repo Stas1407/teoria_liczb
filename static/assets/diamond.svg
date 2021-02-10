@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="253" height="160" viewBox="0 0 253 160">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #6a7ea5;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-1" width="253" height="160" transform="translate(750 351)"/>
+    </clipPath>
+  </defs>
+  <g id="diamond" class="cls-2" transform="translate(-750 -351)">
+    <path id="gem-regular" class="cls-3" d="M144.992,0H35a3.723,3.723,0,0,0-3.125,1.687l-31.248,46a3.753,3.753,0,0,0,.219,4.437L87.089,158.617a3.745,3.745,0,0,0,5.812,0L179.147,52.122a3.756,3.756,0,0,0,.219-4.437l-31.217-46A3.777,3.777,0,0,0,144.992,0Zm-6.031,15,19.78,30H137.368L121.212,15h17.749ZM75.808,15h28.342l16.155,30H59.684Zm-34.78,0H58.778L42.622,45H21.248ZM27.592,60H43.653l21.343,50Zm32.155,0h60.5L89.995,136.025,59.746,60Zm55.247,50,21.311-50h16.062Z" transform="translate(786.619 351)"/>
+  </g>
+</svg>

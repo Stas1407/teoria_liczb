@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="228" viewBox="0 0 160 228">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #6a7ea5;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 8px;
+        stroke-dasharray: 20;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="palindromiczne" transform="translate(-1587 -346)">
+    <g id="Ellipse_11" data-name="Ellipse 11" class="cls-1" transform="translate(1587 380)">
+      <circle class="cls-3" cx="80" cy="80" r="80"/>
+      <circle class="cls-4" cx="80" cy="80" r="75"/>
+    </g>
+    <line id="Line_8" data-name="Line 8" class="cls-2" y2="228" transform="translate(1666.5 346)"/>
+  </g>
+</svg>

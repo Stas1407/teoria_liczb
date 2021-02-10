@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="185" height="160" viewBox="0 0 185 160">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: #6a7ea5;
+      }
+    </style>
+  </defs>
+  <g id="trojkatne" class="cls-1">
+    <path class="cls-2" d="M92.5,0,185,160H0Z"/>
+    <path class="cls-3" d="M 92.5 19.97987365722656 L 17.33212280273438 150 L 167.6678771972656 150 L 92.5 19.97987365722656 M 92.5 0 L 185 160 L 0 160 L 92.5 0 Z"/>
+  </g>
+</svg>
