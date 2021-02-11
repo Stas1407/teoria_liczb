@@ -1,6 +1,8 @@
 $('body').hide()
 $('#six').hide()
 $('#second_text').hide()
+$('#third_text').hide()
+
 
 let timeout = ''
 let stage = 0
@@ -8,6 +10,7 @@ $(document).ready(() => {
     $('body').fadeIn(5000)
     timeout = setTimeout(() => {
         stage = 1
+        // Show second scene
         $('#main_text').animate({'top':'-30%'})
         setTimeout(() => {
             $('#main_text').hide()
@@ -22,6 +25,13 @@ $(document).ready(() => {
                     $('body').fadeIn(900)
                     $('#six').show(1000)
                     $('#second_text').show(1000)
+                    setTimeout(() => {
+                        $('#six').slideUp(1000)
+                        $('#second_text').slideUp(1000)
+                        setTimeout(() => {
+                            window.location.href = 'second_perfect'
+                        }, 1000)
+                    }, 10000)
                 }, 100)
             }, 1000)
         }, 300)

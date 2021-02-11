@@ -1,0 +1,66 @@
+html, body{
+    background-image: url('/static/assets/perfect2_bg.png');
+}
+
+#main_text{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 10%;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 400;
+    margin: 0 20%;
+}
+
+#second_perfect {
+    position: fixed;
+    font-size: 250px;
+    left: 0%;
+    right: 0;
+    text-align: center;
+    bottom: 30%;
+    animation-name: pulse, shake;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    color: black;
+    cursor: pointer;
+}
+
+.equation {
+    position: fixed;
+    left: 30%;
+    width: 50%;
+    text-align: right;
+    bottom: 30%;
+    display: flex;
+    color: black;
+    pointer-events: none;
+}
+
+.equation h1{
+    font-size: 8vw;
+    pointer-events: none;
+}
+
+.equation *{
+    opacity: 0;
+}
+
+@keyframes pulse{
+    0% { font-size: 250px;}
+    50% { font-size: 300px;}
+    100% { font-size: 250px; }
+}
+
+@keyframes shake{
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(5deg); }
+    20% { transform: rotate(0deg); }
+    30% {transform: rotate(-5deg); }
+    40% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+}
+

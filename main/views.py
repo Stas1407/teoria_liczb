@@ -9,3 +9,6 @@ def introduction(request):
 
 def perfect(request):
     return render(request, 'perfect.html')
+
+def second_perfect(request):
+    return render(request, 'second_perfect.html')
