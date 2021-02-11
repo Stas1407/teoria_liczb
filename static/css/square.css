@@ -1,0 +1,64 @@
+#transition_left, #transition_right{
+    width: 50%;
+    position: fixed;
+    background-color: black;
+    height: 100%;
+}
+
+#transition_left{
+    left: 0%;
+}
+
+#transition_right{
+    left: 50%;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main_text{
+    width: 33%;
+    position: fixed;
+    top: 10%;
+    bottom: 10%;
+    left: 5%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_text h1{
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+      height: 300%;
+      top: -100%;
+    }
+}
+  
+@media (max-aspect-ratio: 16/9) {
+    .fullscreen-bg__video {
+        width: 300%;
+        left: -100%;
+    }
+}

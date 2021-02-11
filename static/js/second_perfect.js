@@ -20,7 +20,11 @@ $('#second_perfect').click(() => {
             $('.equation').hide(1000)
             $('#main_text').slideUp(1000)
             setTimeout(() => {
-                window.location.href = "/square"
+                $('#transition_left').animate({left:'0%'}, 1000)
+                $('#transition_right').animate({left: '50%'}, 1000)
+                setTimeout(() => {
+                    window.location.href = "/square"
+                }, 1000)
             }, 1000)
             
         }, 9000)

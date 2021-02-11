@@ -1,40 +1,17 @@
 html, body{
-    background-image: url('/static/assets/perfect2_bg.png');
+    background-color: #EBEBEB;
+}
+body{
+    opacity: 0;
 }
 
-#transition_left, #transition_right{
-    width: 50%;
-    position: fixed;
-    background-color: black;
-    height: 100%;
-}
-
-#transition_left{
-    left: -50%;
-}
-
-#transition_right{
-    left: 100%;
-}
-
-#main_text{
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 10%;
-    text-align: center;
-    font-size: 75px;
-    font-weight: 400;
-    margin: 0 20%;
-}
-
-#second_perfect {
+#number {
     position: fixed;
     font-size: 250px;
     left: 0%;
     right: 0;
     text-align: center;
-    bottom: 30%;
+    bottom: 40%;
     animation-name: pulse, shake;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
@@ -44,24 +21,35 @@ html, body{
     cursor: pointer;
 }
 
-.equation {
+#grid{
     position: fixed;
-    left: 30%;
-    width: 50%;
-    text-align: right;
-    bottom: 30%;
+    left: 45%;
+    top: 15%;
+    bottom: 50%;
+    right: 15%;
+    pointer-events: none;
+}
+
+#second_number{
+    font-size: 12vw;
+}
+
+#wrapper{
+    position: fixed;
+    left: 13.5%;
+    bottom: 43%;
     display: flex;
-    color: black;
-    pointer-events: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
-.equation h1{
-    font-size: 8vw;
-    pointer-events: none;
-}
-
-.equation *{
-    opacity: 0;
+#second_wrapper{
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes pulse{
@@ -78,4 +66,3 @@ html, body{
     40% { transform: rotate(0deg); }
     100% { transform: rotate(0deg); }
 }
-

@@ -12,3 +12,9 @@ def perfect(request):
 
 def second_perfect(request):
     return render(request, 'second_perfect.html')
+
+def square(request):
+    return render(request, 'square.html')
+
+def square2(request):
+    return render(request, 'square2.html')

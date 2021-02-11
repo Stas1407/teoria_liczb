@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="230" height="106" viewBox="0 0 230 106">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0f0f0f;
+        font-size: 80px;
+        font-family: SegoeUI, Segoe UI;
+      }
+    </style>
+  </defs>
+  <text id="pierwiastek" class="cls-1"><tspan x="-25.996" y="86">√</tspan></text>
+</svg>

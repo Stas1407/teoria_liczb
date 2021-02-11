@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="200.5" viewBox="0 0 66 200.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 10px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: #707070;
+      }
+    </style>
+  </defs>
+  <g id="arrow" transform="translate(-284 -433)">
+    <line id="Line_4" data-name="Line 4" class="cls-1" y1="185" transform="translate(316.5 448.5)"/>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(284 433)">
+      <path class="cls-2" d="M 65.14025115966797 57.5 L 0.8597451448440552 57.5 L 33 1.011067271232605 L 65.14025115966797 57.5 Z"/>
+      <path class="cls-3" d="M 33 2.022132873535156 L 1.719490051269531 57 L 64.28050994873047 57 L 33 2.022132873535156 M 33 0 L 66 58 L 0 58 L 33 0 Z"/>
+    </g>
+  </g>
+</svg>
