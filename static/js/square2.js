@@ -18,6 +18,13 @@ $('#number').click(() => {
             $('#second_number').show(1000)
             setTimeout(() => {
                 $('#grid').slideDown(1000)
+                setTimeout(() => {
+                    $('body').fadeOut(1000)
+                    $('html').fadeOut(1000)
+                    setTimeout(() =>{
+                        window.location.href = "/triangle"
+                    }, 1000)
+                }, 10000)
             }, 2000)
         }, 1000)
     })

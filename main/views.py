@@ -18,3 +18,9 @@ def square(request):
 
 def square2(request):
     return render(request, 'square2.html')
+
+def triangle(request):
+    return render(request, 'triangle.html')
+
+def triangle2(request):
+    return render(request, 'triangle2.html')
