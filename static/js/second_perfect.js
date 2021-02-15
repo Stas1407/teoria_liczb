@@ -2,14 +2,14 @@ $('#second_perfect').hide()
 $('#main_text').hide()
 
 $(document).ready(() => {
+    var music = new Audio("/static/assets/music.mp3");
+    music.volume = 0.4
+    music.play()
     $('#second_perfect').show(1000)
     $('#main_text').show(1000)
 })
 
 $('#second_perfect').click(() => {
-    var music = new Audio("/static/assets/music.mp3");
-    music.volume = 0.4
-    music.play()
     $('#second_perfect').css('animation', 'none')
     $('#second_perfect').animate({
         right: '50%',
