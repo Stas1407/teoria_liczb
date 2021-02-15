@@ -7,6 +7,9 @@ $(document).ready(() => {
 })
 
 $('#second_perfect').click(() => {
+    var music = new Audio("/static/assets/music.mp3");
+    music.volume = 0.4
+    music.play()
     $('#second_perfect').css('animation', 'none')
     $('#second_perfect').animate({
         right: '50%',

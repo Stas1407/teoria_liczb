@@ -146,6 +146,7 @@ html, body{
     flex-direction: column;
     height: 100%;
     text-align: center;
+    cursor: pointer;
 }
 
 h2{
@@ -169,6 +170,13 @@ h2{
     z-index: 10;
     cursor: pointer;
     pointer-events: all;
+}
+
+#music_link{
+    position: fixed;
+    left: 1%;
+    bottom: 1%;
+    color: white;
 }
 
 @media only screen and (hover: none) and (pointer: coarse){

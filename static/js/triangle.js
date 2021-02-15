@@ -1,6 +1,9 @@
 $('body').hide()
 $('#triangle').hide()
 $(document).ready(() => {
+    var music = new Audio("/static/assets/music.mp3");
+    music.volume = 0.4
+    music.play()
     $('body').fadeIn(2000)
     setTimeout(() => {
         $('.fullscreen-bg__video').get(0).play()

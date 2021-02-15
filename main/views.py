@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def landing_page(request):
-    return render(request, 'index.html')
+    return render(request, 'landing_page.html')
 
 def introduction(request):
     return render(request, 'introduction.html')
@@ -24,3 +24,9 @@ def triangle(request):
 
 def triangle2(request):
     return render(request, 'triangle2.html')
+
+def palindromic(request):
+    return render(request, 'palindromic.html')
+
+def googol(request):
+    return render(request, 'googol.html')

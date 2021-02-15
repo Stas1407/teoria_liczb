@@ -7,6 +7,9 @@ $('#third_text').hide()
 let timeout = ''
 let stage = 0
 $(document).ready(() => {
+    var music = new Audio("/static/assets/music.mp3");
+    music.volume = 0.4
+    music.play()
     $('body').fadeIn(5000)
     timeout = setTimeout(() => {
         stage = 1

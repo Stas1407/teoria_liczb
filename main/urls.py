@@ -10,4 +10,6 @@ urlpatterns = [
     path('square2', views.square2, name="square2"),
     path('triangle', views.triangle, name="triangle"),
     path('triangle2', views.triangle2, name="triangle2"),
+    path('palindromic', views.palindromic, name="palindromic"),
+    path('googol', views.googol, name="googol"),
 ]
