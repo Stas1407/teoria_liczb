@@ -3,4 +3,4 @@
 Strona dotycząca teorii liczb. 
 
 Link:
-https://teorialiczb.herokuapp.com/
+https://teorialiczb.stas1407.ml/
